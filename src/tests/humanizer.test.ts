@@ -1,4 +1,4 @@
-import { Zaperson } from "../Zaperson";
+import Zaperson from "../index";
 
 describe("#Humanizer Test Suite", () => {
   it("should return a humanized string from a number string", () => {

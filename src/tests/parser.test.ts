@@ -1,4 +1,4 @@
-import { Zaperson } from "../Zaperson";
+import Zaperson from "../index";
 
 describe("#Parser Test Suite", () => {
   it("should remove all no-numeric digits from number string", () => {

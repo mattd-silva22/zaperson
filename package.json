@@ -1,13 +1,24 @@
 {
   "name": "zaperson",
   "version": "1.0.0",
-  "description": "",
+  "description": "A lib for parsing, formatting, and validating Brazilian phone numbers.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc"
   },
   "type": "module",
-  "author": "",
+  "keywords": [
+    "phone",
+    "validation",
+    "brazil",
+    "typescript",
+    "telefones",
+    "validador",
+    "whatsapp",
+    "celular"
+  ],
+  "author": "Mattd-silva22",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.5.13",

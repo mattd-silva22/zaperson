@@ -1,4 +1,4 @@
-import { Zaperson } from "../Zaperson";
+import Zaperson from "../index";
 
 describe("# Info Test Suite", () => {
   it("should return a info string from a number string", () => {
