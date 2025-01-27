@@ -4,7 +4,7 @@ import { TDDDInfo } from "./types/dddInfo.type";
 import { dddInfo } from "./data/ddd";
 import { IZaperson } from "./interfaces/zaperson.interface";
 
-export default class Zaperson implements IZaperson {
+export class Zaperson implements IZaperson {
   private config: TConfig | undefined;
   private dddDatabase: TDDDInfo[];
   constructor(config?: TConfig) {
