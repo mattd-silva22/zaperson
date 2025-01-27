@@ -1,13 +1,17 @@
 {
   "name": "zaperson",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "A lib for parsing, formatting, and validating Brazilian phone numbers.",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest",
-    "build": "tsc"
-  },
   "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.js"
+    }
+  },
   "keywords": [
     "phone",
     "validation",
@@ -19,7 +23,11 @@
     "celular"
   ],
   "author": "Mattd-silva22",
-  "license": "ISC",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean"
+  },
   "devDependencies": {
     "@types/jest": "^29.5.13",
     "@types/node": "^22.7.6",

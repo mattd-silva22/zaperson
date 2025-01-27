@@ -1,4 +1,4 @@
-# 📞 **Zaperson Lib**
+# 📞 **Zaperson**
 
 _Uma biblioteca poderosa e fácil de usar para validar, formatar e obter informações sobre números de telefone brasileiros._
 
@@ -6,10 +6,10 @@ _Uma biblioteca poderosa e fácil de usar para validar, formatar e obter informa
 
 ## 🛠️ **Como Usar**
 
-A Zaperson Lib é projetada para ser simples e eficiente. Aqui está um exemplo básico de uso:
+A Zaperson é projetada para ser simples e eficiente. Aqui está um exemplo básico de uso:
 
 ```typescript
-import Zaperson from "zaperson-lib";
+import Zaperson from "zaperson";
 
 // 🔧 Inicialize a biblioteca
 const zaperson = new Zaperson({ validateDDD: true });
@@ -46,16 +46,10 @@ console.log(isValid); // true
 
 ## 🔎 **Funcionalidades Principais**
 
-1. **Validação de números brasileiros**  
-   🔗 Certifique-se de que o número segue o padrão brasileiro e que o DDD é válido.
-
-2. **Formatação amigável**  
-   🎨 Converta números brutos para um formato legível, como `+55 11 98765-4321`.
-
-3. **Informações detalhadas sobre o DDD**  
-   🗺️ Obtenha a região, estado e outras informações baseadas no DDD.
-
-4. **Suporte a números com e sem DDI**  
+1. **Validação de números brasileiros**🔗 Certifique-se de que o número segue o padrão brasileiro e que o DDD é válido.
+2. **Formatação amigável**🎨 Converta números brutos para um formato legível, como `+55 11 98765-4321`.
+3. **Informações detalhadas sobre o DDD**🗺️ Obtenha a região, estado e outras informações baseadas no DDD.
+4. **Suporte a números com e sem DDI**
    🌎 Identifique e normalize números internacionais começando com `55`.
 
 ## 🌟 **Por Que Usar Zaperson?**
